@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mR6zIscfNGoVxMmCcUcsQwUFqGQgB32kUpE75jvCHA8C7hziNu8idt832y7NYv7kBlgq6Z5saa1vQKkTjeLBYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabri\\Desktop\\XUnitMoq\\XUnitTestMoq\\XUnitTestMoq\\XUnitTestMoq.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.19\\microsoft.netcore.app.host.win-x64.3.1.19.nupkg.sha512"
+  ],
+  "logs": []
+}
