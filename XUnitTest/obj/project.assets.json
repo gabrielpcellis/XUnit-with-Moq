@@ -1811,6 +1811,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "XUnitTestMoq/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/XUnitTestMoq.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XUnitTestMoq.dll": {}
+        }
       }
     }
   },
@@ -6146,12 +6156,18 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "XUnitTestMoq/1.0.0": {
+      "type": "project",
+      "path": "../XUnitTestMoq/XUnitTestMoq.csproj",
+      "msbuildProject": "../XUnitTestMoq/XUnitTestMoq.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.7.1",
       "Moq >= 4.16.1",
+      "XUnitTestMoq >= 1.0.0",
       "coverlet.collector >= 1.3.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
@@ -6183,7 +6199,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\gabri\\Desktop\\XUnitMoq\\XUnitTestMoq\\XUnitTestMoq\\XUnitTestMoq.csproj": {
+              "projectPath": "C:\\Users\\gabri\\Desktop\\XUnitMoq\\XUnitTestMoq\\XUnitTestMoq\\XUnitTestMoq.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

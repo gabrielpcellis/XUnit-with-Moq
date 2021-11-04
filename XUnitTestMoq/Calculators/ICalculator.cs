@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace XUnitTestMoq
+namespace Calculators.XUnitTestMoq
 {
     public interface ICalculator
     {
